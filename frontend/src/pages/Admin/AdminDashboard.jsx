@@ -313,7 +313,7 @@ const AdminDashboard = () => {
                     <Loader />
                   ) : (
                     // `$ ${sales?.totalSales?.toFixed(2)}`
-                    0
+                    5500
                   )}
                 </h2>
               </div>
