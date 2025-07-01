@@ -312,7 +312,8 @@ const AdminDashboard = () => {
                   {isLoading ? (
                     <Loader />
                   ) : (
-                    `$ ${sales?.totalSales?.toFixed(2)}`
+                    // `$ ${sales?.totalSales?.toFixed(2)}`
+                    0
                   )}
                 </h2>
               </div>

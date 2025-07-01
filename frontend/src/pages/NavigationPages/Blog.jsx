@@ -15,7 +15,7 @@ export default function Blog() {
       author: "Sarah Johnson",
       date: "March 15, 2024",
       readTime: "5 min read",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "../../public/images/docusign-BbSBf5uv50A-unsplash.jpg",
       featured: true,
     },
     {
@@ -26,7 +26,7 @@ export default function Blog() {
       author: "Michael Chen",
       date: "March 12, 2024",
       readTime: "7 min read",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "../../public/images/kvalifik-5Q07sS54D0Q-unsplash.jpg",
       featured: false,
     },
     {
@@ -37,7 +37,7 @@ export default function Blog() {
       author: "Emily Rodriguez",
       date: "March 10, 2024",
       readTime: "6 min read",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "../../public/images/kevin-schmid-42MP7b-AJ-Q-unsplash.jpg",
       featured: false,
     },
     {
@@ -48,32 +48,9 @@ export default function Blog() {
       author: "Alex Thompson",
       date: "March 8, 2024",
       readTime: "8 min read",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "../../public/images/docusign-BbSBf5uv50A-unsplash.jpg",
       featured: false,
-    },
-    {
-      id: 5,
-      title: "Productivity Hacks: Tech Tools for Remote Workers",
-      excerpt: "Maximize your work-from-home productivity with these essential tech tools and gadgets.",
-      category: "Productivity",
-      author: "Lisa Park",
-      date: "March 5, 2024",
-      readTime: "4 min read",
-      image: "/placeholder.svg?height=200&width=300",
-      featured: false,
-    },
-    {
-      id: 6,
-      title: "Camera Gear for Content Creators: A Complete Guide",
-      excerpt:
-        "Whether you're just starting or looking to upgrade, here's everything you need to know about camera equipment.",
-      category: "Photography",
-      author: "David Kim",
-      date: "March 3, 2024",
-      readTime: "10 min read",
-      image: "/placeholder.svg?height=200&width=300",
-      featured: false,
-    },
+    }
   ]
 
   const categories = ["All", "Technology", "Smart Home", "Gaming", "Productivity", "Photography", "Sustainability"]
@@ -117,7 +94,7 @@ export default function Blog() {
             <div className="grid md:grid-cols-2 gap-0">
               <div className="relative h-64 md:h-full">
                 <img
-                  src={blogPosts[0].image || "/placeholder.svg"}
+                src="../../public/images/jakub-zerdzicki-qQSyfwpdFk8-unsplash.jpg"
                   alt={blogPosts[0].title}
                   
                   className="object-cover"

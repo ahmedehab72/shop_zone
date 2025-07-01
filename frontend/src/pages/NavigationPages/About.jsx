@@ -36,7 +36,7 @@ export default function About() {
             </div>
             <div>
               <img
-                src="/placeholder.svg?height=300&width=400"
+                src="../../public/images/kevin-schmid-42MP7b-AJ-Q-unsplash.jpg"
                 alt="Garage startup"
                 width={400}
                 height={300}
@@ -49,7 +49,7 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="order-2 md:order-1">
               <img
-                src="/placeholder.svg?height=300&width=400"
+                src="../../public/images/dylan-gillis-KdeqA3aTnBY-unsplash.jpg"
                 alt="Team working"
                 width={400}
                 height={300}
@@ -95,7 +95,7 @@ export default function About() {
             </div>
             <div>
               <img
-                src="/placeholder.svg?height=300&width=400"
+                src="../../public/images/docusign-BbSBf5uv50A-unsplash.jpg"
                 alt="Global expansion"
                 width={400}
                 height={300}
@@ -108,7 +108,7 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="order-2 md:order-1">
               <img
-                src="/placeholder.svg?height=300&width=400"
+                src="../../public/images/kvalifik-5Q07sS54D0Q-unsplash.jpg"
                 alt="Innovation lab"
                 width={400}
                 height={300}
@@ -155,7 +155,7 @@ export default function About() {
             </div>
             <div>
               <img
-                src="/placeholder.svg?height=300&width=400"
+                src="../../public/images/docusign-BbSBf5uv50A-unsplash.jpg"
                 alt="Sustainability"
                 width={400}
                 height={300}

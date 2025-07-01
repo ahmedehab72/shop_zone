@@ -55,9 +55,9 @@ const ProductDetails = () => {
         comment,
       }).unwrap();
       refetch();
-      toast.success("Review created successfully");
+      // toast.success("Review created successfully");
     } catch (error) {
-      toast.error(error?.data || error.message);
+      console.error(error?.data || error.message);
     }
   };
 
